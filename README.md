@@ -51,6 +51,7 @@ Di dalamnya ada latihan-latihan kecil yang dikelompokkan per bahasa dan per topi
 
 Repositori ini disusun berdasarkan **bahasa → kategori → topik**, sehingga mudah ditelusuri.
 
+<!-- TREE:START -->
 ```
 a-new-page/
 ├── language/
@@ -69,6 +70,7 @@ a-new-page/
 ├── LICENSE
 └── README.md
 ```
+<!-- TREE:END -->
 
 ### Penjelasan singkat
 
