@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CC - if else</title>
+</head>
+<body>
+    <h2>Greetings mortal</h2>
+    <p id="demo"></p>
+    <script>
+        let hour = 14;
+        let isWeekend = false;
+        let greeting = "";
+
+        if (hour < 12) {
+            greeting = "Good morning";
+        } else if (hour < 18) {
+            greeting = "Good day";
+        } else {
+            greeting = "Good evening"
+        }
+
+        let weekend = isWeekend ? "weekend" : "work day";
+
+        document.getElementById("demo").innerHTML = greeting + " - " + weekend
+
+    </script>
+</body>
+</html>
