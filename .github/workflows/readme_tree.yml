@@ -1,0 +1,29 @@
+name: Update README tree
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["README.md"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-tree
+  cancel-in-progress: true
+
+jobs:
+  tree:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/update_readme_tree.py
+      - name: Commit jika ada perubahan
+        run: |
+          if ! git diff --quiet README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs: update struktur proyek di README"
+            git pull --rebase origin main
+            git push
+          fi
