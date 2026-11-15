@@ -53,16 +53,13 @@ Repositori ini disusun berdasarkan **bahasa → kategori → topik**, sehingga m
 
 <!-- TREE:START -->
 ```
-a-new-page/
+new-page/
 ├── language/
 │   ├── HTML/
 │   │   └── dasar/
-│   │       ├── 1. heading.html
-│   │       └── 2. elemen paragraf.html
 │   └── JavaScript/
 │       ├── 1.if conditions/
 │       └── 2.loops/
-├── LICENSE
 └── README.md
 ```
 <!-- TREE:END -->
