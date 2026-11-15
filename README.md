@@ -5,6 +5,7 @@
 **Halaman baru, awal baru: catatan belajar HTML & JavaScript dari nol.**
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)
+![CSS] (![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white))
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![Status](https://img.shields.io/badge/status-belajar-blue)
 ![Made with love](https://img.shields.io/badge/made%20with-%E2%9D%A4-red)
@@ -43,6 +44,7 @@ Di dalamnya ada latihan-latihan kecil yang dikelompokkan per bahasa dan per topi
 | Teknologi | Kegunaan |
 |-----------|----------|
 | **HTML5** | Membangun struktur halaman web |
+| **CSS** | Memperindah halaman web |
 | **JavaScript** | Menambahkan logika dan interaksi |
 | **Git & GitHub** | Version control dan penyimpanan kode |
 | **Visual Studio Code** | Editor kode yang digunakan |
@@ -67,8 +69,8 @@ new-page/
 ### Penjelasan singkat
 
 - **`language/`** adalah folder utama yang menampung semua bahasa pemrograman yang sedang dipelajari.
-- **`language/HTML/`** berisi latihan seputar HTML, dimulai dari kategori `dasar`.
-- **`language/JavaScript/`** berisi latihan JavaScript, saat ini fokus pada `if conditions`.
+- **`language/HTML/`** berisi latihan seputar HTML.
+- **`language/JavaScript/`** berisi latihan JavaScript.
 - **`LICENSE`** berisi ketentuan penggunaan repositori ini.
 - **`README.md`** adalah halaman yang sedang kamu baca.
 
