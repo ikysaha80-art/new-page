@@ -11,6 +11,7 @@ const IGNORE: &[&str] = &[
     ".venv",
     "dist",
     "build",
+    "scripts",
     "target",
     ".github",
 ];
