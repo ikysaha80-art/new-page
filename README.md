@@ -60,13 +60,8 @@ a-new-page/
 │   │       ├── 1. heading.html
 │   │       └── 2. elemen paragraf.html
 │   └── JavaScript/
-│       └── if conditions/
-│           ├── 1. if
-│           ├── 2. if else
-│           ├── 3. ternary
-│           ├── 4. switch
-│           ├── 5. booleans
-│           └── 6. logical
+│       ├── 1.if conditions/
+│       └── 2.loops/
 ├── LICENSE
 └── README.md
 ```
