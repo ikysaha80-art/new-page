@@ -16,7 +16,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python scripts/update_readme_tree.py
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache build
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: scripts/readme_tree
+
+      - name: Generate tree
+        run: cargo run --release --manifest-path scripts/readme_tree/Cargo.toml
+
       - name: Commit jika ada perubahan
         run: |
           if ! git diff --quiet README.md; then
