@@ -60,11 +60,6 @@ new-page/
 │   └── JavaScript/
 │       ├── 1.if conditions/
 │       └── 2.loops/
-├── scripts/
-│   └── readme_tree/
-│       ├── src/
-│       ├── Cargo.lock
-│       └── Cargo.toml
 └── README.md
 ```
 <!-- TREE:END -->
