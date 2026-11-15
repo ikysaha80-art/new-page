@@ -12,7 +12,6 @@ const IGNORE: &[&str] = &[
     "dist",
     "build",
     "target",
-    "scripts",
     ".github",
 ];
 const MAX_DEPTH: usize = 3;
