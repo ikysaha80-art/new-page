@@ -5,7 +5,7 @@
 **Halaman baru, awal baru: catatan belajar HTML & JavaScript dari nol.**
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)
-![CSS] (![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white))
+![CSS](![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white))
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![Status](https://img.shields.io/badge/status-belajar-blue)
 ![Made with love](https://img.shields.io/badge/made%20with-%E2%9D%A4-red)
