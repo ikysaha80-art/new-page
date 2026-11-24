@@ -60,7 +60,9 @@ new-page/
 │   ├── HTML/
 │   │   ├── dasar/
 │   │   ├── 1.formatting.html
-│   │   └── 2.quotation-and-citation.html
+│   │   ├── 2.quotation-and-citation.html
+│   │   ├── 3.colors.html
+│   │   └── 4.CSS.html
 │   └── JavaScript/
 │       ├── 1.if conditions/
 │       └── 2.loops/
